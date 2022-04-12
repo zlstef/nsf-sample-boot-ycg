@@ -1,0 +1,19 @@
+nsf:
+  type: http
+  version: '2.0'
+  nsfServer: 'http://nsf-server.infra.dv.com'
+  application:
+    name: stock-viewer-ycg
+    version: 0.0.1
+    projectCode: project1
+    envCode: prod
+    zone: default
+    group: default
+    tags: []
+    mark: beta
+  authority:
+    accessKey: 4b38cbb8450b4c65ac23b9819f970d53
+    secretKey: 7f3e284536384ea184d4be881e668406
+  manager:
+    patterns:
+      - className: com.netease.cloud.nsf.demo.stock.viewer.web.service.impl.*
