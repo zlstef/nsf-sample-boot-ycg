@@ -18,7 +18,5 @@ ADD ./*/target/nsf*.jar /app.jar
 
 ADD ./*/target/classes/nsf.yml /opt/nsf/
 
-ADD ./start.sh /
-
 
 ENTRYPOINT ["java","-Dserver.port=8080","-Dstock_viewer_url=http://stock-viewer-wanchu", "-Dstock_provider_url=http://stock-provider-wanchu", "-Dstock_advisor_url=http://stock-advisor-wanchu", "-Dnsf.prometheus.enable=true","-javaagent:/opt/nsf/nsf-agent.jar=nsf","-javaagent:/opt/apm/skywalking-napm-bin-8.5.0-latest/agent/skywalking-agent.jar","-Dskywalking_config=opt/apm/skywalking-napm-bin-8.5.0-latest/agent/config/agent.config","-jar","/app.jar"]
