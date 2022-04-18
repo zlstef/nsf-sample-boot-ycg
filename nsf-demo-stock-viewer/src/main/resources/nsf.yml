@@ -12,8 +12,8 @@ nsf:
     tags: []
     mark: beta
   authority:
-    accessKey: 4f24e24114b44792b777cf5220024408
-    secretKey: 10253ba5221a4abaa5927c078cd5eaab
+    accessKey: 6cb8983bbaae45409497f99fc88db58e
+    secretKey: 6a52dda6efc149ad96f56c6f05cea515
   manager:
     patterns:
       - className: com.netease.cloud.nsf.demo.stock.viewer.web.service.impl.*
