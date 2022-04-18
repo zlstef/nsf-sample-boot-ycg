@@ -5,7 +5,7 @@ nsf:
   application:
     name: stock-viewer-wanchu
     version: 0.0.1
-    projectCode: common
+    projectCode: demoproject
     envCode: prod
     zone: default
     group: default
