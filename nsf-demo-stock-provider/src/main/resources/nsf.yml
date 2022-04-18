@@ -16,4 +16,4 @@ nsf:
     secretKey: 6a52dda6efc149ad96f56c6f05cea515
   manager:
     patterns:
-      - className: com.netease.cloud.nsf.demo.stock.viewer.web.service.impl.*
+      - className: com.netease.cloud.nsf.demo.stock.*
