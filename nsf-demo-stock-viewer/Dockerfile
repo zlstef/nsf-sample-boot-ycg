@@ -16,7 +16,7 @@ RUN mkdir -p /opt/nsf && cd /opt/nsf && \
     
 ADD ./*/target/nsf*.jar /app.jar
 
-ADD ./nsf.yml /opt/nsf/
+ADD ./*/target/classes/nsf.yml /opt/nsf/
 
 ADD ./start.sh /
 
