@@ -12,4 +12,4 @@ nsf:
   manager:
     patterns:
       -
-        className: "com.netease.cloud.nsf.demo.stock.viewer.web.controller.*"
+        className: 'com.netease.cloud.nsf.demo.stock.viewer.web.controller.*'
