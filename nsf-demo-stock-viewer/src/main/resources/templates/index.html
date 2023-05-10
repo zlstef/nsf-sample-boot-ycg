@@ -229,7 +229,7 @@
             statusCode: {
                 429: function(responseObject, textStatus, jqXHR) {
                     list.empty();
-                    list.append("Too Many Requests，ratelimit for request");
+                    list.append("429，Too Many Requests，ratelimit for Request");
                     // 找不到内容(404)
                     // 如果服务器返回404响应，则将执行此代码
                 }          
