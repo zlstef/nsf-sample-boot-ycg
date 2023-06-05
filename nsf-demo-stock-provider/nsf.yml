@@ -2,7 +2,7 @@ nsf:
   type: http
   nsfServer: 'http://nsf-server.qz.sf.163.com'
   application:
-    name: ycg-demo-provider
+    name: provider-cicd
     version: 0.0.1
     projectCode: poc
     envCode: prod
